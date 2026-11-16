@@ -10,3 +10,8 @@ void bubble_sort(int *a, int n) {
     }
 }// пузырьковая сортировка
 // сортировка
+
+int main(){
+    int a[] = {4, 2};
+    bubble_sort(a, 2);
+}
